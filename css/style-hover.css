@@ -1,0 +1,32 @@
+.first__cart:active {
+    background-image: url(../img/shape-1.svg); 
+    transform: scale(1.2);
+} 
+
+.second__cart:active {
+    background-image: url(../img/shape-2-2x.svg);
+    transform: scale(1.2);
+}
+
+.first__link:active  .cart__title,
+.second__cart:active .cart__title {
+    font-size: 18.7px;
+}
+
+.first__link:active  .price,
+.second__link:active .price {
+    font-size: 24px;
+}
+
+.cart__link:active  .cart__descr {
+    font-size: 14px;
+    padding: 2px 11px;
+}
+
+.cart__link:active  .price__month {
+    font-size: 13.2px;
+}
+
+.cart__link:active  .second__cart{
+    transform: scale(-2);
+}

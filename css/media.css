@@ -1,0 +1,122 @@
+@media (min-width:377px) {
+    body {
+        width: auto;
+    }
+
+
+}
+
+@media (max-height:667px) {
+    body {
+        padding: 30px 20px;
+    }
+
+   main {
+    margin-top: 80px;
+   }
+
+   .main__headline {
+    margin-bottom: 20px;
+   }
+
+   .text__list {
+    margin-bottom: 35px;
+   }
+
+   .btn {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    padding: 14px 80px;
+    font-size: 14px;
+    line-height: 1;
+
+   }
+
+   .btn__descr {
+    margin-bottom: 22px;
+   }
+}
+
+
+@media (width:390px) {
+    body {
+        padding: 25px 20px;
+        background-image: url(../img/4@3x.png);
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    .main__headline {
+        font-size: 33px;
+        margin-bottom: 28px;
+    }
+
+    .text__list {
+        margin-bottom: 30px;
+    }
+
+    .text__link {
+        font-size: 14px;
+        margin-left: 65px;
+
+    }
+
+    .cart__link {
+        padding: 25px 18px 20px 18px;
+        background-size: auto;
+    }
+
+    .price {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .price__descr {
+        font-size: 18px;
+    }
+
+    .cart__descr {
+        font-size: 12px;
+        margin-top: 15px;
+        transform: scale(1.35);
+    }
+
+    .sale {
+        font-size: 12px;
+        top: 8px;
+        right: 6px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .price__month {
+        font-size: 14px;
+    }
+
+    .cart__link:active .cart__descr {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-top: 26px;
+        padding: 18px 100px;
+        font-size: 20px;
+        line-height: 1;
+
+    }
+
+    .btn__descr {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .footer__link {
+        font-size: 14px;
+    }
+
+}
+
+
